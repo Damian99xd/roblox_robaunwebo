@@ -15,7 +15,7 @@ Config.SessionLockSeconds = 180
 Config.SessionHeartbeatSeconds = 45
 Config.HatchCooldownSeconds = 1.25
 Config.HatchRatePerMinute = 30
-Config.HeistHoldSeconds = 4
+Config.HeistHoldSeconds = 4.5
 Config.HeistRange = 14
 Config.ExtractionRange = 14
 Config.HeistCooldownSeconds = 20
@@ -40,6 +40,10 @@ Config.Brainrots = {
 	Tricky = { DisplayName = "Tricky.exe", Rarity = "Epic", Income = 22, Multiplier = 1, Icon = "rbxassetid://0", Model = "Tricky" },
 	TungTax = { DisplayName = "Tung Tung Tax", Rarity = "Legendary", Income = 55, Multiplier = 1, Icon = "rbxassetid://0", Model = "TungTax" },
 	Tralalero = { DisplayName = "Tralalero Cósmico", Rarity = "Legendary", Income = 90, Multiplier = 1, Icon = "rbxassetid://0", Model = "Tralalero" },
+	Bombardiro = { DisplayName = "Bombardiro Cocodrilo", Rarity = "Epic", Income = 28, Multiplier = 1, Icon = "rbxassetid://0", Model = "Bombardiro" },
+	Chimpanzini = { DisplayName = "Chimpanzini Bananini", Rarity = "Rare", Income = 8, Multiplier = 1, Icon = "rbxassetid://0", Model = "Chimpanzini" },
+	Lirili = { DisplayName = "Lirili Larila", Rarity = "Common", Income = 2, Multiplier = 1, Icon = "rbxassetid://0", Model = "Lirili" },
+	Cappuccino = { DisplayName = "Cappuccino Assassino", Rarity = "Legendary", Income = 75, Multiplier = 1, Icon = "rbxassetid://0", Model = "Cappuccino" },
 	ElmoExe = { DisplayName = "Elmo.exe", Rarity = "Secret", Income = 250, Multiplier = 1, Icon = "rbxassetid://0", Model = "ElmoExe" },
 }
 
@@ -48,7 +52,8 @@ Config.Brainrots = {
 Config.Eggs = {
 	HuevoComun = { DisplayName = "Huevo Común", Currency = "Coins", Cost = 100, Drops = {
 		{ Id = "NPC", Weight = 60 }, { Id = "CapyCEO", Weight = 15 }, { Id = "Skibidi", Weight = 10 },
-		{ Id = "BrrPatapim", Weight = 8 }, { Id = "Tricky", Weight = 2 }, { Id = "TungTax", Weight = 4.8 }, { Id = "ElmoExe", Weight = 0.2 },
+		{ Id = "BrrPatapim", Weight = 6 }, { Id = "Bombardiro", Weight = 2 }, { Id = "Tricky", Weight = 2 },
+		{ Id = "TungTax", Weight = 3.5 }, { Id = "Cappuccino", Weight = 1.3 }, { Id = "ElmoExe", Weight = 0.2 },
 	} },
 	HuevoCursed = { DisplayName = "Huevo Cursed Legendario", Currency = "Gems", Cost = 25, Drops = {
 		{ Id = "BrrPatapim", Weight = 45 }, { Id = "Tricky", Weight = 25 }, { Id = "TungTax", Weight = 20 }, { Id = "Tralalero", Weight = 9 }, { Id = "ElmoExe", Weight = 1 },
